@@ -1,0 +1,70 @@
+@media screen and (max-width: 1200px) {
+   
+}
+
+
+
+@media screen and (max-width: 768px) {
+   /* jumbotron */
+   .jumbotron img {
+      margin: 50px auto !important;
+      width: 250px;
+      height: 250px;
+   }
+
+
+   .jumbotron h3 {
+      text-align: center;
+      font-size: 30px;
+   }
+
+   .jumbotron p {
+      text-align: center;
+   }
+
+
+   /* about */
+   .about h6 {
+      font-size: 17px;
+   }
+
+   .about {
+      font-size: 15px;
+   }
+
+
+         /* skills */
+         .skills h6 {
+            font-size:17px;
+         }
+
+
+   .skills i {
+      margin: 20px auto;
+   }
+
+
+   /* portofolio */
+   .portofolio h6 {
+      font-size: 17px;
+   }
+
+
+
+   /* contact */
+   .contact h6 {
+      font-size: 17px;
+   }
+   
+}
+
+
+
+@media screen and (max-width: 576px) {
+
+}
+
+
+@media screen and (max-width: 350px) {
+   
+}

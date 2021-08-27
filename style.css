@@ -1,0 +1,142 @@
+/* fonts */
+@font-face {
+   font-family: "Moserrat-Regular";
+   src: url(assets/fonts/Montserrat/Montserrat-Regular.ttf);
+}
+
+
+/* css variable */
+:root {
+   --accentColor: #fff565;
+   --backgroundColor: #252525;
+   --textColor: rgba(255, 255, 255, 0.933);
+}
+
+
+
+/* global css */
+
+* {
+   margin: 0;
+   padding: 0;
+}
+
+
+body {
+   font-family: "Moserrat-Regular";
+   font-size: 18px;
+   color: var(--textColor);
+   background-color: var(--backgroundColor);
+   height: 2000px;
+}
+
+
+.navbar{}
+
+
+.navbar-brand {
+   color: var(--accentColor) !important;
+}
+
+.navbar-nav {
+   text-transform: uppercase;
+}
+
+
+.navbar-nav .nav-link {
+   color: rgb(255, 255, 255);
+   font-size: 0.8em;
+   font-weight: bold;
+}
+
+
+.navbar-toggler {
+   /* background-color: #ffff; */
+}
+
+
+
+
+
+/* jumbotron */
+.jumbotron span {
+   color: var(--accentColor);
+}
+
+
+.jumbotron img {
+   width: 350px;
+   height: 350px;
+}
+
+
+
+/* about */
+.about {
+   margin-top: 200px;
+}
+
+
+
+
+
+/* skills*/
+.skills {
+   margin-top: 250px;
+}
+
+
+.skills i {
+   width: 150px;
+   height: 150px;
+   font-size: 70px;
+   color: var(--backgroundColor);
+   background-color: #fff565;
+   padding: 30px;
+   border-radius: 20px;
+   transition: 0.3s ease;
+}
+
+
+
+.skills i:hover {
+   transform: translateY(-20px);
+}
+
+
+
+
+/* portofolio */
+.portofolio {
+   margin-top: 250px;
+}
+
+
+
+/* contact */
+.contact {
+   margin-top: 250px;
+}
+
+
+.contact i {
+   font-size: 30px;
+   color: #fff;
+   transition: 0.2s;
+   margin: 10px;
+}
+
+
+.contact i:hover {
+   color: var(--accentColor);
+}
+
+
+
+footer {
+   margin-top: 170px;
+   height: 40px;
+   background-color: #141313;
+   line-height: 40px;
+   font-size: 15px;
+}
