@@ -14,16 +14,9 @@
 
 
 
-/* global css */
-
-* {
-   margin: 0;
-   padding: 0;
-}
-
 
 body {
-   font-family: "Moserrat-Regular";
+   font-family: "Moserrat-Regular" !important;
    font-size: 18px;
    color: var(--textColor);
    background-color: var(--backgroundColor);
@@ -31,7 +24,7 @@ body {
 }
 
 
-.navbar{}
+.navbar {}
 
 
 .navbar-brand {
@@ -134,9 +127,14 @@ body {
 
 
 footer {
-   margin-top: 170px;
+   margin-top: 270px;
    height: 40px;
    background-color: #141313;
+   padding: 20px;
+}
+
+
+
+footer p {
    line-height: 40px;
-   font-size: 15px;
 }
